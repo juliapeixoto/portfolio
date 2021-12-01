@@ -7,21 +7,21 @@ export default function Card() {
   return (
     <div className="card">
       <img
-        className="card__inner__profile"
+        className="card__profile__img"
         src={icProfile}
         alt="Foto de perfil"
       />
-      <span>Júlia Peixoto</span>
-      <div className="card__inner__divider" />
+      <span className="card__name">Júlia Peixoto</span>
+      <div className="card__divider" />
 
-      <div className="card__inner__buttons">
-        <button>RESUME</button>
-        <button>PROJECTS</button>
+      <div className="card__container-buttons">
+        <button className="card__button">RESUME</button>
+        <button className="card__button">PROJECTS</button>
       </div>
 
-      <div className="card__inner__links">
-        <img src={icGithub} alt="Ícone GitHub" />
-        <img src={icLinkedin} alt="Ícone Linkedin" />
+      <div className="card__container__links">
+        <img className="card__link" src={icGithub} alt="Ícone GitHub" />
+        <img className="card__link" src={icLinkedin} alt="Ícone Linkedin" />
       </div>
     </div>
   );

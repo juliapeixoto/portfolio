@@ -3,12 +3,12 @@ import "./style.scss";
 export default function Header() {
   return (
     <div className="header">
-      <div className="header__inner__info">
-        <div className="header__inner__info__name">
-          <div className="header__inner__info__name__square" />
-          <p>Júlia Peixoto</p>
+      <div className="header__info">
+        <div className="header__container">
+          <div className="header__square" />
+          <p className="header__title">Júlia Peixoto</p>
         </div>
-        <span>SOFTWARE ENGINEER</span>
+        <span className="header__subtitle">SOFTWARE ENGINEER</span>
       </div>
     </div>
   );

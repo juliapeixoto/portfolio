@@ -5,22 +5,22 @@ import "./style.scss";
 export default function Footer() {
   return (
     <div className="footer">
-      <div className="footer__inner__info">
-        <h1>Call</h1>
-        <span>(19)99404-9650</span>
+      <div className="footer__info">
+        <h1 className="footer__label">Call</h1>
+        <span className="footer__text">(19)99404-9650</span>
       </div>
-      <div className="footer__inner__info">
-        <h1>Write</h1>
-        <span>peixotojuliacontato@gmail.com</span>
+      <div className="footer__info">
+        <h1 className="footer__label">Write</h1>
+        <span className="footer__text">peixotojuliacontato@gmail.com</span>
       </div>
-      <div className="footer__inner__info">
-        <h1>Follow</h1>
-        <div className="footer__inner__info__icons">
+      <div className="footer__info">
+        <h1 className="footer__label">Follow</h1>
+        <div className="footer__container-links">
           <img src={icGithub} alt="Ícone GitHub" />
           <img src={icLinkedin} alt="Ícone Linkedin" />
         </div>
       </div>
-      <span>Template created with Wix.com</span>
+      <span className="footer__text">Template created with Wix.com</span>
     </div>
   );
 }
