@@ -2,7 +2,37 @@
   text-align: center;
 }
 
-.restes {
+.app__background {
+  background-color: #e8b4b8;
+  top: 270px;
+  position: absolute;
+  z-index: -1;
+}
+
+.app__card {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 1240px) {
+  .app__background {
+    width: 40%;
+    height: 85%;
+    top: 150px;
+  }
+
+  .app__inner {
+    display: flex;
+    justify-content: center;
+  }
+
+  .app__card {
+    margin-top: 80px;
+  }
+
+  .app__footer {
+    display: flex;
+    justify-content: center;
+  }
 }

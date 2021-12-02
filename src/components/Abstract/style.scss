@@ -1,16 +1,9 @@
 .abstract {
-  background-color: #e8b4b8;
-  top: 250px;
-  position: absolute;
-  z-index: -1;
-
-  &__inner {
-    margin-top: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0 54px 30px;
-  }
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 54px 30px;
 
   &__title {
     margin: 0;
@@ -31,5 +24,23 @@
     font-size: 16px;
     font-weight: 300;
     margin: 8px 0;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .abstract {
+    width: 400px;
+
+    &__title {
+      font-size: 100px;
+    }
+
+    &__subtitle {
+      font-size: 25px;
+    }
+
+    &__text {
+      font-size: 18px;
+    }
   }
 }

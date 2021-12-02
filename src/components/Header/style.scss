@@ -35,3 +35,17 @@
     font-size: 14px;
   }
 }
+
+@media screen and (min-width: 1240px) {
+  .header {
+    padding: 40px 40px;
+
+    &__title {
+      font-size: 25px;
+    }
+
+    &__subtitle {
+      font-size: 18px;
+    }
+  }
+}

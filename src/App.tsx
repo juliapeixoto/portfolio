@@ -7,12 +7,17 @@ import Header from "./components/Header";
 function App() {
   return (
     <div className="App">
+      <div className="app__background" />
       <Header />
-      <div className="restes">
-        <Card />
+      <div className="app__inner">
+        <div className="app__card">
+          <Card />
+        </div>
+        <Abstract />
       </div>
-      <Abstract />
-      <Footer />
+      <div className="app__footer">
+        <Footer />
+      </div>
     </div>
   );
 }

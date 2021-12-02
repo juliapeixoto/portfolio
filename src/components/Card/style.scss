@@ -30,31 +30,14 @@
     margin: 12px 0 20px;
   }
 
-  &__container-buttons {
+  &__course {
+    display: none;
+  }
+
+  &__buttons {
     display: flex;
     justify-content: space-around;
     width: 100%;
-  }
-
-  &__button {
-    width: 100px;
-    height: 24px;
-    font-family: Poppins, sans-serif;
-    border: #000;
-    font-weight: 600;
-    font-size: 12px;
-    border-radius: 15px;
-    background-color: transparent;
-    color: #000;
-    border: 1px solid #000;
-    transition: 0.4s;
-
-    &:hover {
-      cursor: pointer;
-      background-color: #559b8e;
-      color: #fff;
-      border-style: none;
-    }
   }
 
   &__container__links {
@@ -94,11 +77,15 @@
       margin: 30px 0 30px;
     }
 
-    &__button {
-      width: 135px;
-      height: 32px;
-      font-size: 15px;
-      border-radius: 20px;
+    &__course {
+      display: flex;
+      font-family: Poppins, sans-serif;
+      font-size: 19px;
+      letter-spacing: 3px;
+    }
+
+    &__buttons {
+      display: none;
     }
 
     &__container__links {
