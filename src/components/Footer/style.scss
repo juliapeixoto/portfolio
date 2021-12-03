@@ -39,9 +39,17 @@
     justify-content: space-between;
     width: 60px;
   }
+
+  &__link {
+    cursor: initial;
+
+    &__img {
+      cursor: pointer;
+    }
+  }
 }
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1024px) {
   .footer {
     flex-direction: row-reverse;
     bottom: 0;
@@ -58,14 +66,6 @@
     &__info {
       padding-bottom: 0;
       align-items: center;
-    }
-
-    &__label {
-      font-size: 18px;
-    }
-
-    &__text {
-      font-size: 16px;
     }
   }
 }

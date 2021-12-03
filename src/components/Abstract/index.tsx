@@ -1,18 +1,23 @@
+import Buttons from "../Buttons";
 import "./style.scss";
 
 export default function Abstract() {
   return (
     <div className="abstract">
       <h1 className="abstract__title">Hello</h1>
-      <span className="abstract__subtitle">Subtitulo pequeuinids</span>
+      <span className="abstract__subtitle">
+        Here's who I am {`&`} what I do
+      </span>
+      <div className="abstract__buttons">
+        <Buttons />
+      </div>
       <p className="abstract__text">
-        I'm a paragraph. Click here to add your own text and edit me. It’s easy.
-        Just click “Edit Text” or double click me to add your own content and
-        make changes to the font.
+        I'm 21 years old and graduated in Software Engineering, at PUC-Campinas.
+        Currently working as a intern at CI{`&`}T.
       </p>
       <p className="abstract__text">
-        I’m a great place for you to tell a story and let your users know a
-        little more about you.
+        I'm very dedicated in everything I do and I always try to help others as
+        much as I can.
       </p>
     </div>
   );

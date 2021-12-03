@@ -22,8 +22,26 @@ export default function Card() {
       </div>
 
       <div className="card__container__links">
-        <img className="card__link" src={icGithub} alt="Ícone GitHub" />
-        <img className="card__link" src={icLinkedin} alt="Ícone Linkedin" />
+        <a
+          className="card__link"
+          href="https://github.com/juliapeixoto"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <img className="card__link__img" src={icGithub} alt="Ícone GitHub" />
+        </a>
+        <a
+          className="card__link"
+          href="https://www.linkedin.com/in/j%C3%BAlia-peixoto-3a06581a7"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <img
+            className="card__link__img"
+            src={icLinkedin}
+            alt="Ícone Linkedin"
+          />
+        </a>
       </div>
     </div>
   );

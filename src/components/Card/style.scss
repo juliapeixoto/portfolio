@@ -50,16 +50,21 @@
   }
 
   &__link {
-    cursor: pointer;
-    width: 17px;
-    height: 17px;
-    margin: 0 7px;
+    cursor: initial;
+
+    &__img {
+      cursor: pointer;
+      width: 17px;
+      height: 17px;
+      margin: 0 7px;
+    }
   }
 }
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1024px) {
   .card {
     width: 375px;
+    height: 552px;
 
     &__profile__img {
       width: 200px;
@@ -93,7 +98,7 @@
       margin-top: 50px;
     }
 
-    &__link {
+    &__link__img {
       width: 24px;
       height: 24px;
     }

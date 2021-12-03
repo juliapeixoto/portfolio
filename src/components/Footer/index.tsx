@@ -17,8 +17,30 @@ export default function Footer() {
         <div className="footer__info">
           <h1 className="footer__label">Follow</h1>
           <div className="footer__container-links">
-            <img src={icGithub} alt="Ícone GitHub" />
-            <img src={icLinkedin} alt="Ícone Linkedin" />
+            <a
+              className="footer__link"
+              href="https://github.com/juliapeixoto"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img
+                className="footer__link__img"
+                src={icGithub}
+                alt="Ícone GitHub"
+              />
+            </a>
+            <a
+              className="footer__link"
+              href="https://www.linkedin.com/in/j%C3%BAlia-peixoto-3a06581a7"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img
+                className="footer__link__img"
+                src={icLinkedin}
+                alt="Ícone Linkedin"
+              />
+            </a>
           </div>
         </div>
       </div>

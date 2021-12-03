@@ -1,5 +1,5 @@
 .abstract {
-  margin-top: 200px;
+  margin-top: 196px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -16,6 +16,11 @@
     font-family: Poppins, sans-serif;
     font-size: 19px;
     margin: 10px 0;
+    text-align: initial;
+  }
+
+  &__buttons {
+    display: none;
   }
 
   &__text {
@@ -27,9 +32,11 @@
   }
 }
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1024px) {
   .abstract {
     width: 400px;
+    padding: 0 54px;
+    margin-top: 90px;
 
     &__title {
       font-size: 100px;
@@ -37,6 +44,13 @@
 
     &__subtitle {
       font-size: 25px;
+    }
+
+    &__buttons {
+      width: 70%;
+      display: flex;
+      justify-content: space-between;
+      margin: 30px 0 60px;
     }
 
     &__text {
